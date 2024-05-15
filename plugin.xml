@@ -9,6 +9,7 @@
     <platform name="android">
         <preference name="PLAY_SERVICES_VERSION" default="11.0.1"/>
         <framework src="com.google.android.gms:play-services-auth-api-phone:$PLAY_SERVICES_VERSION" />
+        <framework src="com.google.android.gms:play-services-base:18.1.0" />
 
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="CordovaPluginAndroidSmsRetriever">
